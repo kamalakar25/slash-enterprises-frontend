@@ -232,7 +232,7 @@ function CartPage() {
                           <ListItemAvatar>
                             <Avatar
                               alt={item.productId.name || "Product"}
-                              src={`http://localhost:5000${item.productId.image}`}
+                              src={`https://slash-enterprises-backend.onrender.com${item.productId.image}`}
                               variant="square"
                               sx={{
                                 width: { xs: 80, sm: 100, md: 120 },

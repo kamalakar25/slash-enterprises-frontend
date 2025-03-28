@@ -228,7 +228,7 @@ function ProductDetail() {
                   component={motion.img}
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
-                  src={`http://localhost:5000${product.image}`}
+                  src={`https://slash-enterprises-backend.onrender.com${product.image}`}
                   alt={product.name}
                   sx={{
                     width: "100%",

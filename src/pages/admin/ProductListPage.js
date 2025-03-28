@@ -418,7 +418,7 @@ const ProductListPage = () => {
                       {!isMobile && (
                         <TableCell>
                           <img
-                            src={`http://localhost:5000${product.image}`}
+                            src={`https://slash-enterprises-backend.onrender.com${product.image}`}
                             alt={product.name}
                             style={{ width: 50, height: 50, objectFit: "cover", borderRadius: 4 }}
                           />
