@@ -24,7 +24,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import axios from "axios";
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || "https://covercraft-backend.onrender.com/api";
+const API_BASE_URL = process.env.REACT_APP_API_URL || "https://slash-enterprises-backend.onrender.com/api";
 
 function Header(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);

@@ -37,7 +37,7 @@ function AdminPanel() {
   const [selectedTab, setSelectedTab] = useState(0);
 
   const API_BASE_URL =
-    process.env.REACT_APP_DIPLOYED_BACKEND_URL || 'http://localhost:5000/api';
+  process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
   useEffect(() => {
     const scriptId = 'google-translate-script';
