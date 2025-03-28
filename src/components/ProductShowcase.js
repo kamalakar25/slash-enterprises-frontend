@@ -190,7 +190,7 @@ function ProductShowcase({ category }) {
                       transition: "transform 0.3s ease",
                       "&:hover": { transform: "scale(1.05)" },
                     }}
-                    image={`http://localhost:5000${product.image}`}
+                    image={`https://slash-enterprises-backend.onrender.com${product.image}`}
                     alt={product.name}
                   />
                   <CardContent
